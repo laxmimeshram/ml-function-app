@@ -54,5 +54,5 @@ jobs:
     - name: Deploy to Azure Functions
       uses: Azure/functions-action@v1
       with:
-        app-name: function-app-1
+        app-name: new-function-app
         package: .
